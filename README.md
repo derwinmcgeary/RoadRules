@@ -10,6 +10,8 @@ downloader.sh reads urlslist.txt , which contains a list of urls pointing to bit
 
 newcode.html is an extremely-manually cleaned-up version of downloaded html where every section has an id, avery article has a number (which is the id)
 
+hwcode.html is an automatically cleaned-up version which is generated from rebuildcode.sh
+
 tocgenerator.sh is a terrible script which generates a series of <a href="--------">-_______</a> by reading an html file and converting all of the section IDs to links
 
 ## issues
